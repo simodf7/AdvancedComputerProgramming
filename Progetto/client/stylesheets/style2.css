@@ -1,5 +1,11 @@
 /* Style for admin */
 
+body{
+    border: 1px solid black;
+    min-height: 100vh;
+}
+
+
 header, main, footer{
     font-family: Arial, Helvetica, sans-serif;    
 }
@@ -37,7 +43,7 @@ main *{
 
 main{
     /* border: 1px solid black; */
-    height: 67%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +53,7 @@ main{
 
 main .container{
     /* border: 1px solid black; */
+    
     display: flex;
 
 
@@ -57,8 +64,13 @@ main .container{
 
     /* justify-content: space-between; */
 
+    margin-top: 5%;
     width: 70%;
-    height: 70%;
+    height: 80%;
+}
+
+.form-area{
+    padding: 4%;
 }
 
 main .container2{
@@ -66,7 +78,8 @@ main .container2{
     display: flex;
     justify-content: space-between;
     width: 70%;
-    height: 70%;
+    height: 80%;
+    margin-top: 5%;
 
 }
 
@@ -193,6 +206,9 @@ footer{
     flex-direction: column;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: sticky;
+    top: 100%;
 }
 
 footer .container{
