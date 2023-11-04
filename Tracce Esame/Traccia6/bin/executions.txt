@@ -1,0 +1,13 @@
+temperature 20
+temperature 6
+temperature 39
+temperature 48
+temperature 42
+temperature 43
+temperature 20
+temperature 44
+temperature 44
+temperature 39
+temperature 38
+temperature 27
+temperature 43
