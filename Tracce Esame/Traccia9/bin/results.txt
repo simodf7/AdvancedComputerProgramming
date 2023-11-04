@@ -1,0 +1,8 @@
+math: 2464
+math: 783
+math: 0
+math: 1917
+math: 2813
+math: 30
+text: 74
+text: 65
