@@ -1,5 +1,7 @@
 var main = function () {
 
+    "use strict";
+
     $(".button-login button").on("click", ()=>{
         login();
     });

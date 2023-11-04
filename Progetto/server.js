@@ -3,12 +3,12 @@ const bodyParser = require('body-parser'),
     http = require('http'), 
     mongoose = require('mongoose'); 
     PORT = 3500;
-url_db = "mongodb://127.0.0.1:27017/doghero";
+    url_db = "mongodb://127.0.0.1:27017/doghero";
 
 
 var app = express(); 
 app.use(express.static(__dirname+'/client')); 
-// app.use(express.urlencoded());
+// app.use(express.urlencoded());  body-parser deprecated bodyParser: use individual json/urlencoded middlewares 
 
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true, parameterLimit: 50000 }))
 
