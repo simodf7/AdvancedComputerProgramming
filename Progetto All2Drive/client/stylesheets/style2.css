@@ -1,0 +1,197 @@
+*{
+    /* background: black; */
+    background: white;
+}
+
+header, main, footer{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+
+header .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+header img{
+    object-fit: contain;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 60%;
+}
+
+header p{
+    margin-top: 60px;
+    margin-bottom: 15px;
+    margin-right: 12%;
+}
+
+main *{
+    /* color: white; */
+    color: black;
+}
+
+main{
+    border-top: 1px solid #048004;
+    border-bottom: 1px solid #048004;
+    height: 69%;
+}
+
+main .container{
+
+    margin-top: 5%;
+    height: 300px;
+    width: 50%;
+    margin-left: 23%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* main .container div{
+    border: 1px solid white;
+} */
+
+.form-area div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding-top: 10%;
+}
+
+.form-area div label{
+    margin-bottom: 5px;
+}
+
+
+.left{
+    border: 10px solid #048004;
+    width: 30%;
+    height: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.right{
+    border: 10px solid #048004;
+    width: 30%;
+    height: 120%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+main button{
+    margin-top: 5px;
+    background-color: #048004;
+    color: white;
+}
+
+main button:hover{
+    cursor: pointer;
+}
+
+
+footer *{
+    /* color: white; */
+    color: black;
+    /* border: 1px solid white; */
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* footer .container div{
+    border: 1px solid black;
+} */
+
+footer img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.info1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    margin-top: 2%;
+}
+
+.logo{
+    padding-top: 2%;
+    height: 20px;
+    width: 100px;
+}
+
+.social{
+    display: flex;
+    padding: 1%;
+    width: 20%;
+    margin-right: 2%;
+    justify-content: space-between;
+}
+
+.social h3{
+    margin-top: 3%;
+    font-size: medium;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+    padding: 2%;
+    margin-right: 3%;
+}
+
+.logos div{
+    height: 20px;
+    width: 20px;
+}
+
+.logos div:first-child{
+    padding-top: 4%;
+}
+
+.info2{
+    /* margin-top: 2%; */
+    width: 100%;
+    padding: 1%;
+    background-color: #144579;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info2 *{
+    background-color: #144579;
+    color: white;
+}
+
+.legal-information{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal-information a{
+    text-decoration: none;
+}

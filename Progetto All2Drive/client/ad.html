@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title> All2Drive</title>
+        <link href="stylesheets/reset.css" rel="stylesheet" type="text/css"> 
+        <link href="stylesheets/style3.css" rel="stylesheet" type="text/css"> 
+        <link href="images/Logo.ico" rel="icon" type="image/x-icon">
+        <link href='http://fonts.googleapis.com/css?family=Arial' rel='stylesheet'>
+        <link href='http://fonts.googleapis.com/css?family=Neue+Helvetica' rel='stylesheet'>  
+    </head>
+
+    <body>
+        <header>
+            <div class="container"> 
+                <a href="index.html"><img src="images/Logo.png" alt="Logo Principale"> </a>
+            </div>
+        </header>
+
+        <main>
+            <div class="container"> 
+                <div class="presentazione">
+                    <h2> Pubblica un Annuncio </h2>
+                    <p> In questa sezione potrai pubblicare un annuncio per il veicolo che desideri vendere.</p>
+                </div>
+                
+                
+                <!-- <form> -->
+                    <div class="form-area">
+
+                        <div class="input-descrizione">
+                            <label for="descrizione"> Descrizione </label>
+                            <input type="text" name="descrizione" placeholder="Fiat Punto, Wolkswagen Golf..."> 
+                        </div>
+
+                        <div class="input-categoria">
+                            <label for="Categoria"> Categoria </label> 
+                            <select name="Categoria">
+                                <option value="Auto"> Auto </option>
+                                <option value="Moto"> Moto </option>
+                            </select>
+                        </div>
+
+                        <div class="input-tipologia">
+                            <label for="Tipologia"> Tipologia </label> 
+                            <!-- <input type="text" name="Nome Veicolo" placeholder="Fiat Punto, Wolkswagen Golf...">  -->
+                            <select name="Tipologia">
+                                <option value="Nuovo"> Nuovo </option>
+                                <option value="Usato"> Usato </option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-citta">
+                            <label for="citta"> Città </label>
+                            <input type="text" name="citta" placeholder="Napoli, Milano.."> 
+                        </div>
+
+                        <div class="input-chilometri">
+                            <label for="chilometri"> Chilometraggio </label>
+                            <input type="text" name="chilometri" > 
+                        </div>
+                       
+                        <div class="input-prezzo">
+                            <label for="prezzo"> Prezzo </label>
+                            <input type="text" name="prezzo"> 
+                        </div>
+
+                        <div class="input-foto">
+                            <label for="foto"> Foto </label>
+                            <input type="file" name="foto" accept="image/*"  multiple> 
+                        </div>
+                        
+                        <div class="button-ad">
+                            <button type="button"> Pubblica </button>
+                        </div>
+                    </div>
+                <!-- </form> -->
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="container"> 
+                <div class="info1">
+                    <div class="logo">
+                        <a href="index.html"> <img src="images/Logo.png" alt="Logo Principale">  </a>
+                    </div>
+                    <div class="social">
+                            <h3> Seguici su </h3>
+                            <div class="logos">
+                                <div class="logo1">
+                                    <a href="#"> <img src="https://content.autohero.com/static/car_images/youtube.png">  </a>
+                                </div>   
+                                <div class="logo2">
+                                   <a href="#"> <img src="https://content.autohero.com/static/car_images/instagram.png"> </a> 
+                                </div>
+                                <div class="logo3">
+                                   <a href="#"> <img src="https://content.autohero.com/static/car_images/facebook.png"> </a>
+                                </div> 
+                            </div>
+                    </div>
+                </div>
+
+                    <!-- <p> Seguici su </p>
+                    <ul> 
+                        <li> <a href="#"> Facebook </a> </li>
+                        <li> <a href="#"> Instagram </a> </li>
+                        <li> <a href="#"> X </a>  </li>
+                    </ul> -->
+
+    
+                <div class="info2">
+                    <div class="copyright">
+                        <h3> ©2023 All2Drive · Tutti i diritti riservati</h3>
+                    </div>
+                    <div class="legal-information">
+                        <a href="#"> Informazioni legali </a>
+                        <a href="#"> Termini e Condizioni </a>
+                        <a href="#"> Normativa sulla Privacy </a>
+                    </div>
+
+                    <!-- <ul> 
+                        <li> <a href="#"> Assistenza </a> </li>
+                        <li> <a href="#"> Regole </a> </li>
+                        <li> <a href="#"> Privacy </a>  </li>
+                        <li> <a href="#"> Sicurezza </a>  </li>
+                    </ul> -->
+
+                </div>
+
+
+
+            </div>
+        </footer>
+
+        
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="javascript/client_ad.js"></script>
+    </body>
+</html>

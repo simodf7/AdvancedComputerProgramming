@@ -1,0 +1,409 @@
+*{
+    /* background-color: black; */
+    background-color: white;
+}
+
+
+header,main{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header img{
+    float: left;
+    object-fit: contain;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 350px;
+}
+
+header nav{
+    margin-top: 65px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 15px;
+    float: right;
+   
+}
+
+header nav a{
+    text-decoration: none;
+    /* color: white; */
+    color: black;
+    margin-left: 5px;
+
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+header nav a:last-child{
+    margin-left: 10px;
+    background-color: white;
+    border: 5px solid #048004;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+header nav a:last-child span{
+    background-color: white;
+    color: black;
+}
+
+
+main{
+    border-top: 1px solid #048004;
+    border-bottom: 1px solid #048004;
+    min-height: 400px;
+    padding: 50px;
+    width: 100%;
+}
+
+main *{
+    /* color: white; */
+    color: black;
+}
+
+main .container{
+    /* border: 1px solid white; */
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 180px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .form-area{
+
+    border: 10px solid #048004;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 2%;
+}
+
+main .form-area div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+
+
+.input-citta label{
+    background-color: white;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.input-citta input{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 200px;
+}
+
+
+
+.input-tipologia label{
+    background-color: white;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.input-tipologia select{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 100px;
+}
+
+.input-categoria label{
+    background-color: white;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.input-categoria select{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 100px;
+}
+
+.button-cerca{
+    background-color: white;
+}
+
+
+.button-cerca button {
+    margin-top: 30px;
+    padding: 5px;
+    background-color: #048004;
+    color: white;
+}
+
+.button-cerca button:hover{
+    cursor: pointer;
+}
+
+.box{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 50%;
+    margin-top: 1%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fail{
+    color: red;
+}
+
+.box-ad{
+    border: 10px solid #144579;
+    width: 100%;
+    height: 50%;
+    margin: 1%;
+    padding: 20 30 20 30;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10%;
+}
+
+.img{
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 250px;
+    margin-top: 15%;
+}
+
+.img img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.data{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.data h2{
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+
+.data h4{
+    font-size: 90%;
+    margin-bottom: 3%;
+    color: gray;
+}
+
+.data h3{
+    margin-bottom: 5%;
+    color: #048004;
+    font-size: 120%;
+}
+
+.data h3:hover{
+    text-decoration: underline;
+}
+
+.additional{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    margin-right: 2%;
+    width: 100%;
+}
+
+.vehicle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seller{
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+}
+
+.seller h4{
+    color: #144579;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.seller span{
+    border: 1px solid black;
+    background-color: #dfe3ed;
+    color: #3c4858;
+    font-size: 60%;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+
+.title-box{
+    margin-top: 2%;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.most-visited{
+    /* border: 1px solid black; */
+    width: auto;  
+}
+
+
+.most-visited ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.most-visited div{
+    display: flex;
+    flex-direction: column;
+}
+
+.most-visited img{
+    object-fit: contain;
+    width: 180;
+}
+
+.marca{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.tipo{
+    font-size: 170%;
+}
+
+
+
+
+
+footer *{
+    /* color: white; */
+    color: black;
+    /* border: 1px solid white; */
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* footer .container div{
+    border: 1px solid black;
+} */
+
+footer img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.info1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    margin-top: 2%;
+}
+
+.logo{
+    padding-top: 2%;
+    height: 20px;
+    width: 100px;
+}
+
+.social{
+    display: flex;
+    padding: 1%;
+    width: 20%;
+    margin-right: 2%;
+    justify-content: space-between;
+}
+
+.social h3{
+    margin-top: 3%;
+    font-size: medium;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+    padding: 2%;
+    margin-right: 3%;
+}
+
+.logos div{
+    height: 20px;
+    width: 20px;
+}
+
+.logos div:first-child{
+    padding-top: 4%;
+}
+
+.info2{
+    /* margin-top: 2%; */
+    width: 100%;
+    padding: 1%;
+    background-color: #144579;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info2 *{
+    background-color: #144579;
+    color: white;
+}
+
+.legal-information{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal-information a{
+    text-decoration: none;
+}
